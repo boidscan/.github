@@ -8,6 +8,8 @@ Knowing what is exposed on the internet should not depend on a commercial subscr
 
 ## Why "boids"
 
+<img src="worker.svg" alt="A Boidscan worker, a robot ant scanning with its eye" width="200" align="right">
+
 The name comes from [Boids](https://en.wikipedia.org/wiki/Boids), Craig Reynolds' 1986 flocking simulation, where many simple agents following a few local rules behave like one flock. Boidscan nodes ("boids") work the same way: independent nodes, run by different people, each following the same rules, that together cover more than any single one could.
 
 ## How the flock fits together
