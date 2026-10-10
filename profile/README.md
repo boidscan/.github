@@ -1,6 +1,4 @@
-# Boidscan
-
-<p align="center"><img src="mascot.svg" alt="The Boidscan queen, a winged robot ant with a crown" width="320"></p>
+<p align="center"><img src="logo.svg" alt="Boidscan" width="320"></p>
 
 A free and open source index of publicly reachable services, in the spirit of Shodan and Censys, run by its community instead of a company.
 
