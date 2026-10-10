@@ -33,8 +33,8 @@ flowchart LR
     A & B & C -.-> index[("shared index<br/><small>planned: boidscan.network</small>")]
     B -->|"search API"| you(["you"])
 
-    class index planned
-    classDef planned stroke-dasharray: 5 5
+    style index stroke-dasharray: 8 5,stroke-width:2px
+    linkStyle 9,10,11 stroke-dasharray: 8 5,stroke-width:2px
 ```
 
 Solid lines work today. The dashed part is the next milestone: boids splitting up scan work and sharing results, so the flock builds one index instead of many separate ones. That index will be searchable in the browser at boidscan.network.
